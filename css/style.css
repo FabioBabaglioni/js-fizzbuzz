@@ -2,3 +2,24 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.square{
+    width: calc(10% - 10px);
+    height: 50px;
+    margin: 5px;
+}
+
+.fizz_buzz{
+    background-color: yellow;
+}
+
+
+.fizz{
+    background-color: green;
+}
+
+
+
+.buzz{
+    background-color: red;
+}
