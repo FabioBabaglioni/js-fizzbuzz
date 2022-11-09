@@ -1,10 +1,14 @@
+
+const contenitore = document.querySelector(".container")
 // creare ciclo per numeri da 1 a 100
 
 for(let i = 1; i <= 100; i++)
 
 // se sono divisibili per due e per 5  allora fizzbuzz
     if(i % 3 === 0 && i % 5 === 0){
-        console.log("FizzBuzz")
+        const element = `<div class = "fizz_buzz">${i}<!div>`;
+        contenitore.innerHTML +=element
+
     }else if(i % 3 ===0){
         // se sono divisibili per 3 allora fizz
         console.log("Fizz")
